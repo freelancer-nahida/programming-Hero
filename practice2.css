@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dolar {
+  border: 2px solid goldenrod;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+li {
+  font-size: 23px;
+  text-decoration: none;
+}
+#css {
+  color: royalblue;
+}
+.blog {
+  height: 500px;
+  background-image: url("./download\ \(3\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

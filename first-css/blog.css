@@ -1,0 +1,36 @@
+.header {
+  height: 300px;
+  background-image: url("download (3).jpg");
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x;
+  background-repeat: repeat-y; */
+  /* background-size: cover; */
+  background-size: contain;
+  background-size: 500px;
+}
+
+/* .second {
+  display: none; */
+/* visibility: hidden; */
+/* } */
+
+.blog {
+  margin: 40px;
+  border: 10px solid tomato;
+  box-shadow: 10px 10px 20px blueviolet;
+}
+
+.incedent {
+  border: 1px solid yellowgreen;
+  /* display: block; */
+  display: inline-block;
+  /* margin: 200px;
+  padding: 20px; */
+}
+.dolar {
+  border: 3px solid gold;
+
+  /* display: block; */
+  height: 60px;
+  display: inline-block;
+}

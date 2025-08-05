@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Resturent</title>
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Welcome to our Resturent</h2>
+    </header>
+
+    <h3>Place fill the form</h3>
+    <fieldset>
+      <label for="name"
+        >Your Name
+        <input type="text" name="name" id="name" placeholder="your name"
+      /></label>
+
+      <label for="email"
+        >Your Email
+        <input type="email" name="email" id="email" placeholder="your email"
+      /></label>
+
+      <label for="phone"
+        >Phone
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="your phone number"
+      /></label>
+      <fieldset>
+        <legend>Pick One item</legend>
+        <label for="kacci">
+          <input type="radio" name="rice" id="kacci" />kacci
+        </label>
+
+        <label for="tehari">
+          <input type="radio" name="rice" id="tehari" />Tehari
+        </label>
+
+        <label for="rost"
+          ><input type="radio" name="rice" id="rost" />Rost</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Chose one or more juce</legend>
+        <label for="lamon">
+          <input type="checkbox" name="juce" id="lamon" />Lamon
+        </label>
+
+        <label for="orange">
+          <input type="checkbox" name="juce" id="orange" />Orange</label
+        >
+
+        <label for="mango">
+          <input type="checkbox" name="juve" id="mango" />Mango</label
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Write your opinion</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+      <br />
+
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </body>
+</html>

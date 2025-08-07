@@ -1,0 +1,21 @@
+.parent {
+  padding: 25px;
+  background-color: burlywood;
+  display: flex;
+  gap: 30px;
+  /* justify-content: center; */
+  justify-content: space-around;
+  height: 350px;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.child {
+  border: 2px solid gold;
+  background-color: lavenderblush;
+  /* padding: 20px; */
+  font-size: 28px;
+  /* margin: 10px 0; */
+  /* display: inline; */
+  /* width: 400px; */
+}

@@ -155,6 +155,11 @@ footer{
 .footer-column{
     width: 50%;
 }
+
+.social-img{
+    margin-right: 10px;
+
+}
 footer  input[type='text'], footer input[type = 'email'],footer  textarea {
     height: 64px;
     border-radius: 5px;

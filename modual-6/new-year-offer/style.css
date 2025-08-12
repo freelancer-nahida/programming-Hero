@@ -1,0 +1,333 @@
+
+.merriweather-normal{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.dark{
+    color: black;
+}
+.center{
+    text-align: center;
+}
+
+.header{
+    background-image:linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url('./images/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: cover; */
+    margin: 100px;
+    border-radius: 16px;
+}
+.new-year{
+    padding: 200px  344px;
+}
+.new-year-subtitle{
+color: rgba(255, 255, 255, 1);
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.new-year-title{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* style offer section */
+.offer-title{
+color: rgba(255, 0, 0, 1);
+font-size: 88px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.offer-d{
+color: rgba(255, 0, 0, 1);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.offer-subtitle{
+color: rgba(7, 2, 17, 1);
+font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.offer img{
+  margin: 0 auto;
+width: 802.9px;
+height: 500px;
+}
+/* style welcome section */
+.welcome{
+    background-image:linear-gradient(90.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url('./images/Vector.png');
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px;
+    padding: 65px  70px;
+    border-radius: 10px;
+}
+
+.welcome-title{
+color: rgba(255, 255, 255, 1);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 80px;
+letter-spacing: 11%;
+margin-bottom: 20px;
+}
+.welcome-description{
+color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.welcome-btn{
+text-decoration: none;
+color:white;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+.welcome-container{
+    display: flex;
+    gap: 20px;
+}
+.welcome-content{
+    padding:60px ;
+}
+
+/* style place */
+.place{
+    padding: 100px  300px 200px  300px;
+    margin: 100px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  
+}
+.date{
+font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.red{
+    color: red;
+}
+.btn-primary{
+    margin-top: 40px;
+    padding: 15px 30px;
+color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+background-color:rgba(255, 0, 0, 1) ;
+border: none;
+border-radius: 5px;
+}
+/* style best-offer */
+.best-offer{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.best-offer-description{
+    min-width: 300px;
+color: rgba(7, 2, 17, 0.6);
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+margin: 20px  00;
+}
+.best-offer-img{
+    border-radius: 50%;
+    padding: 25px;
+    border: 12px solid rgba(255, 0, 0, 1);
+}
+.best-offer-subtitle{
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 20px; 
+
+}
+.best-offer-title{
+color: rgba(7, 2, 17, 1);
+font-family: Merriweather;
+font-size: 40px;
+font-weight: 900;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.holiday{
+
+    margin: 100px;
+}
+.gift{
+    margin: 100px;
+}
+.discound{
+    background-image: url('./images/Rectangle\ 2.png');
+    /* background: radial-gradient(50.00% 50.00% at 50% 50%,rgba(0, 0, 0, 1),rgba(255, 255, 255, 1) 100%)Warning: The gradient rotation method is not CSS-compliant and may lead to inconsistent rendering.; */
+    /* opacity: 0.3; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.gift-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/* subscribe */
+.subscribe{
+   padding: 80px 200px;
+   border-radius: 16px;
+   background: rgba(255, 0, 0, 0.05);
+   margin: 100px;
+}
+.subscribe-img{
+    margin-bottom: 20px;
+}
+.subscribe-input{
+    padding:20px 400px  20px  30px ;
+    border: none;
+    border-radius:50px  0px 0px 50px ;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.subscribe-btn{
+    padding:20px 30px;
+    border: none;
+     font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+   
+
+}
+.btn{
+    display: flex;
+}
+/* style footer */
+.footer{
+  padding:100px 120px ;
+background: rgba(7, 2, 17, 1);
+}
+.footer-content p{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+   margin: 20px 0px;
+}
+.social-img{
+    display: flex;
+    justify-content: center;
+    gap:20px ;
+    border-top: 1px solid rgba(255, 255, 255, 0.15) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+   padding: 20px 0px;
+ 
+}
+.icon-box{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 10px;
+} 
+.icon-box{
+    margin-right: 10px;
+}
+.icon-box p{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.icon-box img {
+  width: 24px; /* Adjust icon size */
+  height: 24px; /* Adjust icon size */
+}
+

@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    /* max-width: 1300px; */
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+/* style  hero section */
+.hero{
+    display: flex;
+    gap: 100px;
+   background: rgba(229, 84, 115, 0.1);
+    padding: 50px  150px 0px 150px;
+
+}
+.hero-content{
+    
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.hero-heading{
+color: rgba(39, 39, 39, 1);
+
+font-family: Lato;
+font-size: 70px;
+font-weight: 800;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.hero-p{
+  color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.primary-btn{
+color: rgba(255, 255, 255, 1);
+
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgba(229, 84, 115, 1);
+border: none;
+padding: 20px 40px;
+}
+.hero-btn{
+    display: inline-block;
+text-align: left;
+}
+
+
+/* style featuted */
+
+.featured-heading{
+color: rgba(39, 39, 39, 1);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.featured-p{
+margin:20px 0;
+color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.image-containner{
+    display: flex;
+    gap: 20px;
+}
+.featured{
+    margin: 150px  240px  50px  240px;
+}
+
+
+.img-box{
+height: 280px;
+padding: 50px  50px 20px 50px;
+}
+.center{
+    text-align: center;
+}
+.flower-1{
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-2{
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.flower-3{
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+/* media  */
+@media screen and (max-width:576px){
+   .hero ,.image-containner{
+    flex-direction: column;
+   } 
+   .img-box{
+height: auto;
+padding: 20px;
+}
+}

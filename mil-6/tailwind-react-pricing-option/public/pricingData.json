@@ -1,0 +1,88 @@
+ [
+  {
+    "id": 1,
+    "name": "Free",
+    "price": "$00",
+    "description": "Perfect for beginners",
+    "popular": true,
+    "features": [
+      "Access to basic workouts",
+      "Community support",
+      "1 personalized plan",
+      "Track daily progress",
+      "Basic nutrition tips",
+      "Limited workout videos",
+      "Mobile app access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Basic",
+    "price": "$19/month",
+    "description": "Great for regular users",
+    "features": [
+      "Everything in Free",
+      "Unlimited workout plans",
+      "Custom meal plans",
+      "Progress analytics",
+      "Priority email support",
+      "Ad-free experience",
+      "Weekly fitness reports",
+      "Workout reminders"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pro",
+    "price": "$29/month",
+    "description": "Best for fitness enthusiasts",
+    "features": [
+      "Everything in Basic",
+      "Live fitness classes",
+      "Personal trainer chat",
+      "Advanced progress tracking",
+      "Premium workout videos",
+      "Custom fitness goals",
+      "Smartwatch integration",
+      "Exclusive challenges",
+      "Monthly consultation"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Premium",
+    "price":"$49/month",
+    "description": "Complete fitness experience",
+    "features": [
+      "Everything in Pro",
+      "1-on-1 coaching",
+      "Personalized diet plans",
+      "Video consultations",
+      "Family account support",
+      "Unlimited health reports",
+      "VIP customer support",
+      "Early access to new features",
+      "Fitness assessment",
+      "Exclusive webinars"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Enterprise",
+    "price": "$249/month",
+    "description": "Designed for gyms and organizations",
+    "features": [
+      "Everything in Premium",
+      "Unlimited team members",
+      "Admin dashboard",
+      "Attendance management",
+      "Performance analytics",
+      "Dedicated account manager",
+      "API access",
+      "Custom branding",
+      "Data export",
+      "24/7 premium support",
+      "Priority feature requests"
+    ]
+  }
+]
